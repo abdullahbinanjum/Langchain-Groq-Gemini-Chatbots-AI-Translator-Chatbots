@@ -1,0 +1,15 @@
+# Environment variables
+.env              # This line tells Git to ignore your .env file where API keys are stored.
+
+# Python specific files and directories
+__pycache__/      # Python compiled bytecode cache
+*.pyc             # More compiled Python files
+*.pyo
+*.pyd
+.Python/          # General Python environment folder
+env/              # Common virtual environment name
+venv/             # Another common virtual environment name
+*.egg-info/       # Python package metadata
+.env/             # Sometimes .env is a directory, ignore if so
+.venv/            # Another common virtual environment name
+myvenv/           # Specifically ignore your virtual environment folder
